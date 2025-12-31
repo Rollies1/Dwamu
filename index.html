@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dwamu</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
+        .card { background: white; padding: 15px; margin: 10px; border-radius: 8px; border-left: 5px solid #2ecc71; }
+        header { background: #2ecc71; color: white; padding: 10px; text-align: center; }
+        .container { display: flex; flex-wrap: wrap; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dwamu</h1>
+        <p>Connecting Ghana's Farmers to Markets</p>
+    </header>
+
+    <section>
+        <h3>List Your Surplus</h3>
+        <input type="text" id="crop" placeholder="Crop Name (e.g. Maize)">
+        <input type="number" id="qty" placeholder="Quantity (kg)">
+        <button onclick="addCrop()">Post to Market</button>
+    </section>
+
+    <div class="container" id="market-grid">
+        <div class="card">
+            <h4>Tomatoes</h4>
+            <p>Quantity: 50kg | Location: Northern Region</p>
+        </div>
+    </div>
+
+    <script>
+        function addCrop() {
+        }
+    </script>
+</body>
+</html>
